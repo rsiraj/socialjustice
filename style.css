@@ -2,7 +2,45 @@
   margin: 0;
 }
 
-header {
+.siteHeader {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+}
+.siteName {
+  grid-column: 1/2;
+}
+
+header nav {
+  display: grid;
+}
+nav a {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 1em;
+}
+nav a:hover {
+  color: blue;
+}
+.nav1 {
+  grid-column: 1/2;
+}
+.nav2 {
+  grid-column: 2/3;
+}
+.nav3 {
+  grid-column: 3/4;
+}
+.nav4 {
+  grid-column: 4/5;
+}
+.nav5 {
+  grid-column: 5/6;
+}
+
+main {
+  background-color: aquamarine;
+  padding: 200px;
 }
