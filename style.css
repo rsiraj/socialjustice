@@ -5,18 +5,15 @@
 
 .siteHeader {
   display: grid;
-  font-family: flood-std,sans-serif;
   grid-template-columns: 1fr 1fr;
   padding: 1em;
 }
 .siteName {
   grid-column: 1/2;
-  font-family: flood-std,sans-serif;
 }
 
 header nav {
   display: grid;
-  font-family: flood-std,sans-serif;
 }
 nav a {
   text-align: center;
