@@ -62,3 +62,23 @@ main {
   width: 500px;
   border-radius: 15px;
 }
+.text{
+  text-align: center;
+}
+
+.features {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.features article {
+  text-align: center;
+  margin:auto;
+  width:400px;
+}
+
+.features article img{
+  width: 500px;
+  border-radius: 15px;
+}
