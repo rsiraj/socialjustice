@@ -43,5 +43,23 @@ nav a:hover {
 
 main {
   background-color: aquamarine;
-  padding: 200px;
+  padding: 20px;
+}
+/*---Why Page--*/
+
+.features {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.features figure {
+  text-align: center;
+  margin:auto;
+  width:400px;
+}
+
+.features figure img{
+  width: 500px;
+  border-radius: 15px;
 }
