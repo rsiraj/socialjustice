@@ -1,20 +1,15 @@
 * {
   margin: 0;
-  font-family: flood;
+  font-family: flood-std,sans-serif;
 }
 
 .siteHeader {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1em;
-  font-size: 30px;
 }
 .siteName {
   grid-column: 1/2;
-}
-.siteName a{
-  text-decoration: none;
-  color: black;
 }
 
 header nav {
@@ -26,7 +21,6 @@ nav a {
   text-transform: uppercase;
   color: black;
   padding: 1em;
-  font-size: 18px;
 }
 nav a:hover {
   color: blue;
@@ -49,12 +43,43 @@ nav a:hover {
 
 main {
   background-color: aquamarine;
-  padding: 200px;
+  padding: 20px;
+}
+/*---Why Page--*/
+
+.features {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
+.features figure {
+  text-align: center;
+  margin:auto;
+  width:400px;
+}
 
-/*Contact Page*/
+.features figure img{
+  width: 500px;
+  border-radius: 15px;
+}
+.text{
+  text-align: center;
+}
 
-form{
-  font-size: larger;
+.features {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.features article {
+  text-align: center;
+  margin:auto;
+  width:400px;
+}
+
+.features article img{
+  width: 500px;
+  border-radius: 15px;
 }
