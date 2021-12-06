@@ -1,15 +1,20 @@
 * {
   margin: 0;
-  font-family: flood-std,sans-serif;
+  font-family: flood;
 }
 
 .siteHeader {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1em;
+  font-size: 30px;
 }
 .siteName {
   grid-column: 1/2;
+}
+.siteName a{
+  text-decoration: none;
+  color: black;
 }
 
 header nav {
@@ -21,6 +26,7 @@ nav a {
   text-transform: uppercase;
   color: black;
   padding: 1em;
+  font-size: 18px;
 }
 nav a:hover {
   color: blue;
@@ -44,4 +50,10 @@ nav a:hover {
 main {
   background-color: aquamarine;
   padding: 200px;
+}
+
+
+/*Contact Page*/
+form{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
