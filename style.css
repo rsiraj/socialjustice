@@ -101,7 +101,7 @@ main {
 }
 #Articles {
   display: flex;
-
+  flex-direction: row;
 }
 
 /*Contact Page CSS*/
