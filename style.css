@@ -8,6 +8,12 @@
   grid-template-columns: 1fr 1fr;
   padding: 1em;
 }
+.siteName a{
+  font-family: Flood;
+  text-decoration: none;
+  color: black;
+  font-size: 48px;
+}
 .siteName {
   grid-column: 1/2;
 }
@@ -83,7 +89,6 @@ main {
   width: 500px;
   border-radius: 15px;
 }
+/*Resource page*/
+
 /*Contact Page CSS*/
-button{
-  display: grid;
-}
