@@ -99,6 +99,14 @@ main {
   height: 150px;
   padding: 20px;
 }
-
+#articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0;
+}
 
 /*Contact Page CSS*/
+
+.pledge{
+  font-size: 21px;
+}
