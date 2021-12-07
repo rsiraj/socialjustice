@@ -2,7 +2,7 @@
   margin: 0;
   font-family: flood-std,sans-serif;
 }
-
+/*CSS for nav&footer on all pages*/
 .siteHeader {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 main {
-  background-color: aquamarine;
+  background-color: #81B29A;
   padding: 20px;
 }
 /*---Why Page--*/
@@ -82,4 +82,8 @@ main {
 .features article img{
   width: 500px;
   border-radius: 15px;
+}
+/*Contact Page CSS*/
+button{
+  display: grid;
 }
