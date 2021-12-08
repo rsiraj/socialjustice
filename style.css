@@ -117,13 +117,14 @@ font-size: 1.4em;
   color: black;
   padding: 10px 15px;
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 .button:hover, button:hover{
   background-color: #E07A5F;
   color: white;
   transition: 0.5s;
+}
 /*---Why Page--*/
 .title {
   padding:10px;
