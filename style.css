@@ -156,7 +156,8 @@ font-size: 1.4em;
 /*Resources*/
 
 #UnitedDoctors {
-  display: flex; 
+  display: flex;
+  padding: 20px;
 }
 
 #UnitedDoctors img{
@@ -167,10 +168,12 @@ font-size: 1.4em;
 
 #Articles {
   display: flex;
-}
-.item {
-  display: flex;
   flex-direction: row;
+}
+.items{
+text-align: center;
+display: flex;
+flex-direction: column;
 }
 
 /*Contact Page CSS*/
@@ -203,9 +206,3 @@ margin-top: 60px;
 
   }
 
-
-h2 {
-font-family: 'Times New Roman', Times, serif;
-text-align: center;
-color:black;
-}
