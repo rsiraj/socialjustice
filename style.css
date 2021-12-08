@@ -152,19 +152,26 @@ font-size: 1.4em;
 .features figure img {
   width: 500px;
   border-radius: 15px;
+}
+/*Resources*/
+
+#UnitedDoctors {
+  display: flex;
+  
+}
 
 #UnitedDoctors img{
   width: 150px;
   height: 150px;
   padding: 20px;
 }
+
 #Articles {
   display: flex;
 }
 .item {
   display: flex;
   flex-direction: row;
-
 }
 /*Contact Page CSS*/
 
