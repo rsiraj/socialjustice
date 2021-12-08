@@ -101,7 +101,7 @@ font-size: 1.4em;
 .grid-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
   padding: 10px;
   text-align: center;
 }
