@@ -1,55 +1,129 @@
 * {
   margin: 0;
-  font-family: flood-std,sans-serif;
+  padding: 0;
+  font-family: flood-std, sans-serif;
+  box-sizing: border-box;
 }
+
+body {
+  height: 100%;
+}
+
 /*CSS for nav&footer on all pages*/
 .siteHeader {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #3d405b;
 }
-.siteName a{
-  font-family: Flood;
-  text-decoration: none;
-  color: black;
-  font-size: 48px;
-}
-.siteName {
-  grid-column: 1/2;
+.siteHeader img {
+  max-width: 250px;
+  margin: 10px;
 }
 
 header nav {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 10px;
 }
 nav a {
-  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
-  padding: 1em;
+  color: #e07a5f;
+  margin-right: 2em;
+  font-size: 1.2em;
 }
 nav a:hover {
-  color: blue;
-}
-.nav1 {
-  grid-column: 1/2;
-}
-.nav2 {
-  grid-column: 2/3;
-}
-.nav3 {
-  grid-column: 3/4;
-}
-.nav4 {
-  grid-column: 4/5;
-}
-.nav5 {
-  grid-column: 5/6;
+  color: #f4f1de;
 }
 
+footer {
+  background-color: #3d405b;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  border-top: solid 5px #81b29a;
+  padding: 5px;
+  color: #e07a5f;
+  font-size: 1.2em;
+  bottom: 0;
+  width: 100%;
+}
+
+footer img {
+  max-width: 75px;
+  margin: 5px;
+}
+
+footer section img {
+  max-width: 50px;
+  margin: 5px;
+}
+
+/*---Home Page--*/
+
 main {
-  background-color: #81B29A;
-  padding: 20px;
+  background-color: #f2cc8f;
+}
+
+
+/* Hero image and text */
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url("/img/sliderimage.jpeg");
+height: 70vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+.hero-text {
+text-align: center;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #f4f1de;
+font-size: 1.4em;
+}
+
+/*---Home Flex---*/
+.grid-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.grid-item1 {
+  grid-column: 1/2;
+}
+.grid-item2 {
+  grid-column: 2/3;
+}
+
+.button, button{
+  background-color: #E07A5F;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover, button:hover{
+  background-color: #E07A5F;
+  color: white;
+  transition: 0.5s;
 }
 /*---Why Page--*/
 .title {
@@ -75,10 +149,14 @@ main {
   width:500px;
 }
 
-.features figure img{
+.features figure img {
   width: 500px;
   border-radius: 15px;
-  
+}
+/*Resources*/
+
+#UnitedDoctors {
+  display: flex; 
 }
 
 #UnitedDoctors img{
@@ -86,6 +164,7 @@ main {
   height: 150px;
   padding: 20px;
 }
+
 #Articles {
   display: flex;
 }
@@ -93,6 +172,7 @@ main {
   display: flex;
   flex-direction: row;
 }
+
 /*Contact Page CSS*/
 
 #info{
@@ -103,6 +183,7 @@ main {
 text-align: center;
 margin-top: 60px;
 }
+
 /* Goals page */
 #card{
   display: flex;
@@ -116,7 +197,6 @@ margin-top: 60px;
 #card .card-img{
   display:block;
   width: 50 px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -126,20 +206,20 @@ margin-top: 60px;
     color: black;
      background-color: green;
     }
-     h2 {
-       font-family: 'Times New Roman', Times, serif;
-      text-align: center;
-      color:black;
-    }
-    
-    p {
-      font-family: fantasy;
-      text-align: center;
-      color:white;
-    }
-    h5{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-     text-align:center;
-     color:black
 
-    }
+h2 {
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color:black;
+}
+    
+p {
+ text-align: center;
+ color:white;
+}
+
+h5{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align:center;
+color:black
+}
