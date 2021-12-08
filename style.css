@@ -88,17 +88,16 @@ main {
 }
 #Articles {
   display: flex;
+}
+.item {
+  display: flex;
   flex-direction: row;
 }
-
 /*Contact Page CSS*/
 
 #info{
   display: flex;
   padding: 40px;
-}
-.form {
-
 }
 .pledge {
 text-align: center;
