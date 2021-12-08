@@ -8,6 +8,12 @@
   grid-template-columns: 1fr 1fr;
   padding: 1em;
 }
+.siteName a{
+  font-family: Flood;
+  text-decoration: none;
+  color: black;
+  font-size: 48px;
+}
 .siteName {
   grid-column: 1/2;
 }
@@ -46,7 +52,17 @@ main {
   padding: 20px;
 }
 /*---Why Page--*/
+.title {
+  padding:10px;
+}
 
+.title h2{
+  text-align: center;
+}
+.title h4{
+  text-align: center;
+}
+ 
 .features {
   padding: 10px;
   display: flex;
@@ -56,34 +72,34 @@ main {
 .features figure {
   text-align: center;
   margin:auto;
-  width:400px;
+  width:500px;
 }
 
 .features figure img{
   width: 500px;
   border-radius: 15px;
-}
-.text{
-  text-align: center;
+  
 }
 
-.features {
-  padding: 10px;
+#UnitedDoctors img{
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+#Articles {
   display: flex;
-  flex-direction: column;
 }
-
-.features article {
-  text-align: center;
-  margin:auto;
-  width:400px;
-}
-
-.features article img{
-  width: 500px;
-  border-radius: 15px;
+.item {
+  display: flex;
+  flex-direction: row;
 }
 /*Contact Page CSS*/
-button{
-  display: grid;
+
+#info{
+  display: flex;
+  padding: 40px;
+}
+.pledge {
+text-align: center;
+margin-top: 60px;
 }
