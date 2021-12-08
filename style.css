@@ -85,6 +85,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+overflow: hidden;
 }
 .hero-text {
 text-align: center;
@@ -101,14 +102,28 @@ font-size: 1.4em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
+  padding: 10px;
+  text-align: center;
 }
 .grid-item1 {
   grid-column: 1/2;
 }
 .grid-item2 {
-  grid-column: 3/4;
+  grid-column: 2/3;
 }
 
+.button, button{
+  background-color: #E07A5F;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+}
+
+.button:hover, button:hover{
+  background-color: #E07A5F;
+  color: white;
+  transition: 0.5s;
 /*---Why Page--*/
 .title {
   padding:10px;
