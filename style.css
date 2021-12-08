@@ -1,49 +1,72 @@
 * {
   margin: 0;
-  font-family: flood-std,sans-serif;
+  padding: 0;
+  font-family: flood-std, sans-serif;
+  box-sizing: border-box;
 }
 /*CSS for nav&footer on all pages*/
 .siteHeader {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #3d405b;
 }
-.siteName {
-  grid-column: 1/2;
+
+.siteHeader img {
+  max-width: 300px;
+  margin: 10px;
 }
 
 header nav {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 10px;
 }
 nav a {
-  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
-  padding: 1em;
+  color: #e07a5f;
+  margin-right: 2em;
+  font-size: 1.2em;
 }
 nav a:hover {
-  color: blue;
-}
-.nav1 {
-  grid-column: 1/2;
-}
-.nav2 {
-  grid-column: 2/3;
-}
-.nav3 {
-  grid-column: 3/4;
-}
-.nav4 {
-  grid-column: 4/5;
-}
-.nav5 {
-  grid-column: 5/6;
+  color: #f4f1de;
 }
 
+footer {
+  background-color: #3d405b;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  border-top: solid 5px #81b29a;
+  padding: 5px;
+  color: #e07a5f;
+  font-size: 1.2em;
+}
+
+footer img {
+  max-width: 75px;
+  margin: 5px;
+}
+
+/*---Home Page--*/
+
 main {
-  background-color: #81B29A;
-  padding: 20px;
+  background-color: #f2cc8f;
+}
+
+.hero-image {
+  background-image: url(/img/sliderimage.jpeg);
 }
 /*---Why Page--*/
 
@@ -55,15 +78,15 @@ main {
 
 .features figure {
   text-align: center;
-  margin:auto;
-  width:400px;
+  margin: auto;
+  width: 400px;
 }
 
-.features figure img{
+.features figure img {
   width: 500px;
   border-radius: 15px;
 }
-.text{
+.text {
   text-align: center;
 }
 
@@ -75,15 +98,15 @@ main {
 
 .features article {
   text-align: center;
-  margin:auto;
-  width:400px;
+  margin: auto;
+  width: 400px;
 }
 
-.features article img{
+.features article img {
   width: 500px;
   border-radius: 15px;
 }
 /*Contact Page CSS*/
-button{
+button {
   display: grid;
 }
