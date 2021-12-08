@@ -19,20 +19,22 @@
         </nav>
     </header>
 
-    <main>
-        <form>
-            <h2>Get More Information:</h2>
-            <p>To receive more information about joining Doctors Against Disparities in Healthcare (DADH), please fill out the form below.</p>
+    <main id="info">
+        <form class="form">
+            <h2>Get More Information:</h2><br>
+            <p>To receive more information about joining Doctors Against Disparities in Healthcare (DADH), please fill out the form below.</p><br>
             <label>First Name:<br><input type="text"></label><br>
             <label>Last Name:<br><input type="text"></label><br>
             <label>Phone Number:<br><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></label><br>
             <label>Email:<br><input type="text"></label><br>
             <label>Comments:<br><textarea name="Message"></textarea></label><br><br>
-        <button>Submit</button>
+            <button>Submit</button>
+        </form><br>
+        <form class="pledge">
+            <h2>Healthcare Employees Pledge</h2><br>
+             <p>Any healthcare employee that would like to pledge their work place as a disparity free environement, pledge now.</p><br>
+             <button type="button" onclick="alert('Thank you for your pledge!')">Pledge Now!</button>
         </form>
-        <h2>Healthcare Employees Pledge</h2>
-        <p>Any healthcare employee that would like to pledge their work place as a disparity free environement, pledge now.</p>
-        <button type="button" onclick="alert('Thank you for your pledge!')">Pledge Now!</button>
     </main>
 </body>
 </html>

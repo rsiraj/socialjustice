@@ -8,6 +8,12 @@
   grid-template-columns: 1fr 1fr;
   padding: 1em;
 }
+.siteName a{
+  font-family: Flood;
+  text-decoration: none;
+  color: black;
+  font-size: 48px;
+}
 .siteName {
   grid-column: 1/2;
 }
@@ -75,7 +81,26 @@ main {
   
 }
 
+#UnitedDoctors img{
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+#Articles {
+  display: flex;
+  flex-direction: row;
+}
+
 /*Contact Page CSS*/
-button{
-  display: grid;
+
+#info{
+  display: flex;
+  padding: 40px;
+}
+.form {
+
+}
+.pledge {
+text-align: center;
+margin-top: 60px;
 }
