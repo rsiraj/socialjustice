@@ -156,7 +156,8 @@ font-size: 1.4em;
 /*Resources*/
 
 #UnitedDoctors {
-  display: flex; 
+  display: flex;
+  padding: 20px;
 }
 
 #UnitedDoctors img{
@@ -167,10 +168,12 @@ font-size: 1.4em;
 
 #Articles {
   display: flex;
-}
-.item {
-  display: flex;
   flex-direction: row;
+}
+.items{
+text-align: center;
+display: flex;
+flex-direction: column;
 }
 
 /*Contact Page CSS*/
@@ -185,36 +188,21 @@ margin-top: 60px;
 }
 
 /* Goals page */
+#title{
+  align-content: center;
+  text-align: center;
+}
+#title h1{
+  font-size: 36px;
+}
 #card{
   display: flex;
-  flex-direction:row;
- justify-content:space-around;
-  background-color:turquoise;
-  width: 200px;
-  margin:10px 10px;
-  
+  flex-direction: column;
+  padding: 5px;
   }
-#card .card-img{
-  display:block;
-  width: 50 px;
-  margin-left: auto;
-  margin-right: auto;
-}
-  #Article{
-    display: flexbox;
-    text-align: center;
-    color: black;
-     background-color: green;
-    }
+  #card .card{
+    padding: 30px;
+    font-size: 24px;
 
-h2 {
-font-family: 'Times New Roman', Times, serif;
-text-align: center;
-color:black;
-}
-    
-h5{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-align:center;
-color:black
-}
+  }
+
