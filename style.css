@@ -59,7 +59,9 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
+footer p {
+  padding-left: 5.7vw;
+}
 footer img {
   max-width: 75px;
   margin: 5px;
