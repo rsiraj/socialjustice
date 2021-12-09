@@ -3,6 +3,7 @@
   padding: 0;
   font-family: flood-std, sans-serif;
   box-sizing: border-box;
+  text-align: center;
 }
 
 main {
@@ -59,7 +60,9 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
+footer p {
+  padding-left: 5.7vw;
+}
 footer img {
   max-width: 75px;
   margin: 5px;
@@ -209,22 +212,32 @@ button:hover {
 
 =======
 /*Resources*/
+h2{
+  padding: 10px;
+
+}
 
 #UnitedDoctors {
-  display: flex;
+  display: grid;
   padding: 20px;
+  grid-template-columns: 1fr 1fr 4fr;
 }
 >>>>>>> master
 
 #UnitedDoctors img {
   width: 150px;
   height: 150px;
-  padding: 20px;
+  padding: 10px;
 }
 
 #Articles {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .items {
   text-align: center;
@@ -248,9 +261,11 @@ button:hover {
   align-content: center;
   text-align: center;
 }
+
 #title h1 {
   font-size: 36px;
 }
+/*CSS prev for goals:
 #card {
   display: flex;
   flex-direction: column;
@@ -259,4 +274,38 @@ button:hover {
 #card .card {
   padding: 30px;
   font-size: 24px;
+}*/
+#card .card {
+  padding: 20px;
+  font-size: 24px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
+#card .card img{
+  width: 400px;
+  height: 200px;
+}
+#card{
+  height: 40em;
+  position: relative;
+  padding: 20px;
+  overflow: hidden;
+}
+#card > * {
+animation: 28s slider infinite ease-in-out;
+position: absolute; 
+top: 100%; left: 0; 
+}
+
+@keyframes slider {
+  0% {top: 100%}
+  4% {top: 0%}
+  33.33% {top: 0%}
+  37.33% {top: -100%}
+  100% {top: -100%}
+}
+
+#card > *:nth-child(1) {animation-delay: 0s}
+#card > *:nth-child(2) {animation-delay: 7s}
+#card > *:nth-child(3) {animation-delay: 14s}
+#card > *:nth-child(4) {animation-delay: 21s}
