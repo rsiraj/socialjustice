@@ -146,6 +146,8 @@ footer section img {
   padding: 10px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .features figure {
