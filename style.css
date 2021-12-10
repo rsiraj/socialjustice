@@ -283,7 +283,7 @@ footer section img {
   overflow: hidden;
 }
 #card > * {
-  animation: 16s slider infinite ease-in-out;
+  animation: 12s slider infinite;
   position: absolute;
   top: 100%;
   left: 0;
@@ -293,13 +293,16 @@ footer section img {
   0% {
     top: 100%;
   }
-  4% {
+  16.67% {
+    top: 100%;
+  }
+  33.34% {
     top: 0%;
   }
-  33.33% {
+  50.01% {
     top: 0%;
   }
-  37.33% {
+  66.68% {
     top: -100%;
   }
   100% {
@@ -311,11 +314,14 @@ footer section img {
   animation-delay: 0s;
 }
 #card > *:nth-child(2) {
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 #card > *:nth-child(3) {
-  animation-delay: 8s;
+  animation-delay: 6s;
 }
 #card > *:nth-child(4) {
+  animation-delay: 9s;
+}
+#card > *:nth-child(5) {
   animation-delay: 12s;
 }
