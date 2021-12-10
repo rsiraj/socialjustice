@@ -283,7 +283,7 @@ footer section img {
   overflow: hidden;
 }
 #card > * {
-  animation: 12s slider infinite ease-in-out;
+  animation: 16s slider infinite ease-in-out;
   position: absolute;
   top: 100%;
   left: 0;
