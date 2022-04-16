@@ -97,7 +97,7 @@ footer section img {
 /*Hero image and text*/
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
-    url("/img/sliderimage.jpeg");
+    url("./img/sliderimage.jpeg");
   height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
